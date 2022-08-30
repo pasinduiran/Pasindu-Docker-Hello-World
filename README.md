@@ -38,6 +38,7 @@ Note: The Dockerfiles of the each container can be found inside respective folde
 # docker-compose build
 # docker-compose up 
 ```
+Once the above comamnds are successfully executed. You can access the "Hello Word" app through http://localhost:8080/ and the Mongo Express UI through http://localhost:8081/
 
 ## Authors
 
