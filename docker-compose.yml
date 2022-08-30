@@ -2,11 +2,11 @@ version: '3.1'
 
 services:
   node-helloworld:
-        build: ../node-app
+        build: ./node-app
         restart: always
 
   mongo:
-    build: ../mongodb
+    build: ./mongodb
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
@@ -21,7 +21,7 @@ services:
       ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
   
   reverseproxy:
-        build: ../nginx
+        build: ./nginx
         ports:
             - 8080:3000
             - 8081:8081
