@@ -42,5 +42,5 @@ Once the above comamnds are successfully executed. You can access the "Hello Wor
 
 ## Authors
 
-- [Pasindu Dissanayake](passiiranga@gmail.com)
+- Pasindu Dissanayake (passiiranga@gmail.com)
 
